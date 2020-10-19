@@ -1,0 +1,30 @@
+---
+layout: page
+title: Downloads
+---
+{% include breadcrumbs.html %}
+<h4>{{ page.title }}</h4>
+
+
+{{page.description.en}}
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+<ul>
+    {% for page in site.pages %}
+    {% if page.path contains 'en/data' %}
+      <li>
+          <span class="favicon-download-alt">
+        <a href="{{site.baseurl}}{{page.layer}}" download="{{page.title}}">{{page.title}}</a>
+    </span>
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  <h1>{{ page.description }}</h1>
+  
+  <h4>Contact</h4>
+  <p>
+    Do you have questions about the data or need data that isn't here? <br/> Contact us at
+    <a href="https://contact-contactez.nrcan-rncan.gc.ca/index.cfm?st=-1&cat=-1&scat=-1&lang=eng">Natural Resources Canada</a>
+  </p>
