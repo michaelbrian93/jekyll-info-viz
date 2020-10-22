@@ -4,11 +4,11 @@ authorName: Natural Resources Canada
 authorUrl:
 contentTitle:
   en: Github Pages - Home
-  fr: Github Pages - Home
+  fr: Github Pages - Accueil
 dateModified: 2020-10-16
 description:
   en: Available datasets
-  fr: Available datasets
+  fr: Ensembles de données disponibles
 noContentTitle: true
 pageclass: wb-prettify all-pre
 subject:

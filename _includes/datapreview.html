@@ -17,6 +17,7 @@
         width: 200px;
         margin: 10px;
         display: inline-block;
+        margin-left: 50px;
     }
     
 	img {
@@ -25,9 +26,10 @@
 	}
     .button {
         display: block;
-        margin-left: 55%;
+        margin-left: 50px;
         margin-bottom: 20px;
         text-decoration: none;
+        margin-bottom: 2vh;
 
     }
     a,
@@ -49,6 +51,10 @@
     .head-wrap {
         display: inline-block;
     }
+
+    h1, h4 {
+        margin-left: 50px;
+    }
 </style>
 
 <div class="container">
@@ -64,7 +70,7 @@
                     <h1>{{ page. contentTitle.en }}</h1>
                 </div>
                     <h4>{{ page.description.en }}</h4>
-                    <button>
+                    <button class="button">
                         <a href="{{ site.baseurl }}{{ page.url }}">View Data</a>
                     </button>
                     </div>
