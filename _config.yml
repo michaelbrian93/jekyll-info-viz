@@ -954,12 +954,12 @@ resources:
               id_field: Sauid
 
 
-
-# page_gen:
-#   - data: 'documentation'
-#     template: 'page'
-#     name: 'documentation_page'
-#     dir: 'docs'
+page_gen-dirs: true # uncomment, if you prefer to generate named folders
+page_gen:
+  - data: 'documentation'
+    template: 'doc-test'
+    name: 'name'
+    dir: 'docs'
 
 #   - data: 'datasets'
 #     template: 'page'
