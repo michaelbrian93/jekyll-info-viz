@@ -17,7 +17,7 @@ pageclass: wb-prettify all-pre
 subject:
   en: [GV Government and Politics, Government services]
   fr: [GV Gouvernement et vie politique, Services gouvernementaux]
-title: afm7p2_lrdmf_damage_state_building
+title: Damage State Building
 # Leaflet
 leaflet: true
 latlng: [49.24, -123.11] # if not set then map will zoom to extent of layer

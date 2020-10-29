@@ -12,6 +12,8 @@ dateModified: 2020-09-18
 description:
   en: Recovery time aggregated at building level
   fr: Recovery time aggregated at building level
+longDescription:
+    en: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 noContentTitle: true
 pageclass: wb-prettify all-pre
 subject:
@@ -33,9 +35,11 @@ img: "http://placehold.it/100x100"
 
 {{page.description.en}}
 
-{% include leaflet.html %}
+{{page.longDescription.en}}
 
-## [Download Link]({{site.baseurl}}{{page.layer}})<br/>
+
+
+[Download Link]({{site.baseurl}}{{page.layer}})<br/>
 [License]({{site.data.metadata.metadata.license.url}})
 <h4>{{site.data.metadata.metadata.contact.position}}</h4>
 <p>{{site.data.metadata.metadata.contact.name}}</p>

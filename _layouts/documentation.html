@@ -3,183 +3,25 @@ layout: page
 title: Documentation
 ---
 
-{% for page in site.pages %} {% if page.path contains 'en/data/documentation-data' %}
-{% endif %} {% endfor %}
-{% include breadcrumbs.html %}
-<h1>{{ page.title }}</h1>
 
- <h4>{{ site.data.metadata.resources.afm7p2_lrdmf_economic_loss_building.title }}</h4>
- <p>{{ site.data.metadata.resources.afm7p2_lrdmf_economic_loss_building.description }}</p>
- <blockquote>keywords: {{ site.data.metadata.resources.afm7p2_lrdmf_economic_loss_building.keywords }}</blockquote>
- <button>
-    <a href="{{ site.baseurl }}{{ page.url }}">View Documentation</a>
-</button>
+<div class="container">
+    <div class="data-wrapper col-lg-12">
+        <div class="preview-wrapper">
+                <div class="desc">
+            {% for page in site.pages %} {% if page.path contains 'en/data/documentation-data' %}
+            <div class="wrap">
+                <div class="head-wrap">
 
-
- <h4>{{ site.data.metadata.resources.afm7p2_lrdmf_damage_state_building.title }}</h4>
- <p>{{ site.data.metadata.resources.afm7p2_lrdmf_damage_state_building.description }}</p>
- <blockquote>keywords: {{ site.data.metadata.resources.afm7p2_lrdmf_damage_state_building.keywords }}</blockquote>
- <button>
-    <a href="{{ site.baseurl }}{{ page.url }}">View Documentation</a>
-</button>
-
-
- <h4>{{ site.data.metadata.resources.afm7p2_lrdmf_social_disruption_building.title }}</h4>
- <p>{{ site.data.metadata.resources.afm7p2_lrdmf_social_disruption_building.description }}</p>
- <blockquote>keywords: {{ site.data.metadata.resources.afm7p2_lrdmf_social_disruption_building.keywords }}</blockquote>
- <button>
-    <a href="{{ site.baseurl }}{{ page.url }}">View Documentation</a>
-</button>
-
- <h4>{{ site.data.metadata.resources.afm7p2_lrdmf_recovery_time_building.title }}</h4>
- <p>{{ site.data.metadata.resources.afm7p2_lrdmf_recovery_time_building.description }}</p>
- <blockquote>keywords: {{ site.data.metadata.resources.afm7p2_lrdmf_recovery_time_building.keywords }}</blockquote>
- <button>
-    <a href="{{ site.baseurl }}{{ page.url }}">View Documentation</a>
-</button>
-
- <h4>{{ site.data.metadata.resources.afm7p2_lrdmf_scenario_shakemap_intensity_building.title }}</h4>
- <p>{{ site.data.metadata.resources.afm7p2_lrdmf_scenario_shakemap_intensity_building.description }}</p>
- <blockquote>keywords: {{ site.data.metadata.resources.afm7p2_lrdmf_scenario_shakemap_intensity_building.keywords }}</blockquote>
- <button>
-    <a href="{{ site.baseurl }}{{ page.url }}">View Documentation</a>
-</button>
-
- <h4>{{ site.data.metadata.resources.afm7p2_lrdmf_casualties_building.title }}</h4>
- <p>{{ site.data.metadata.resources.afm7p2_lrdmf_casualties_building.description }}</p>
- <blockquote>keywords: {{ site.data.metadata.resources.afm7p2_lrdmf_casualties_building.keywords }}</blockquote>
- <button>
-    <a href="{{ site.baseurl }}{{ page.url }}">View Documentation</a>
-</button>
-
- <h4>{{ site.data.metadata.resources.afm7p2_lrdmf_economic_loss_sauid.title }}</h4>
- <p>{{ site.data.metadata.resources.afm7p2_lrdmf_economic_loss_sauid.description }}</p>
- <blockquote>keywords: {{ site.data.metadata.resources.afm7p2_lrdmf_economic_loss_sauid.keywords }}</blockquote>
- <button>
-    <a href="{{ site.baseurl }}{{ page.url }}">View Documentation</a>
-</button>
-
- <h4>{{ site.data.metadata.resources.afm7p2_lrdmf_damage_state_sauid.title }}</h4>
- <p>{{ site.data.metadata.resources.afm7p2_lrdmf_damage_state_sauid.description }}</p>
- <blockquote>keywords: {{ site.data.metadata.resources.afm7p2_lrdmf_damage_state_sauid.keywords }}</blockquote>
- <button>
-    <a href="{{ site.baseurl }}{{ page.url }}">View Documentation</a>
-</button>
-
-
- <h4>{{ site.data.metadata.resources.afm7p2_lrdmf_social_disruption_sauid.title }}</h4>
- <p>{{ site.data.metadata.resources.afm7p2_lrdmf_social_disruption_sauid.description }}</p>
- <blockquote>keywords: {{ site.data.metadata.resources.afm7p2_lrdmf_social_disruption_sauid.keywords }}</blockquote>
- <button>
-    <a href="{{ site.baseurl }}{{ page.url }}">View Documentation</a>
-</button>
-
- <h4>{{ site.data.metadata.resources.afm7p2_lrdmf_recovery_time_sauid.title }}</h4>
- <p>{{ site.data.metadata.resources.afm7p2_lrdmf_recovery_time_sauid.description }}</p>
- <blockquote>keywords: {{ site.data.metadata.resources.afm7p2_lrdmf_recovery_time_sauid.keywords }}</blockquote>
- <button>
-    <a href="{{ site.baseurl }}{{ page.url }}">View Documentation</a>
-</button>
-
- <h4>{{ site.data.metadata.resources.afm7p2_lrdmf_scenario_shakemap_intensity_sauid.title }}</h4>
- <p>{{ site.data.metadata.resources.afm7p2_lrdmf_scenario_shakemap_intensity_sauid.description }}</p>
- <blockquote>keywords: {{ site.data.metadata.resources.afm7p2_lrdmf_scenario_shakemap_intensity_sauid.keywords }}</blockquote>
- <button>
-    <a href="{{ site.baseurl }}{{ page.url }}">View Documentation</a>
-</button>
-
-
- <h4>{{ site.data.metadata.resources.afm7p2_lrdmf_casualties_sauid.title }}</h4>
- <p>{{ site.data.metadata.resources.afm7p2_lrdmf_casualties_sauid.description }}</p>
- <blockquote>keywords: {{ site.data.metadata.resources.afm7p2_lrdmf_casualties_sauid.keywords }}</blockquote>
- <button>
-    <a href="{{ site.baseurl }}{{ page.url }}">View Documentation</a>
-</button>
-
-
-
- <h4>{{ site.data.metadata.resources.sim9p0_cascadiaair_economic_loss_building.title }}</h4>
- <p>{{ site.data.metadata.resources.sim9p0_cascadiaair_economic_loss_building.description }}</p>
- <blockquote>keywords: {{ site.data.metadata.resources.sim9p0_cascadiaair_economic_loss_building.keywords }}</blockquote>
- <button>
-    <a href="{{ site.baseurl }}{{ page.url }}">View Documentation</a>
-</button>
-
- <h4>{{ site.data.metadata.resources.sim9p0_cascadiaair_damage_state_building.title }}</h4>
- <p>{{ site.data.metadata.resources.sim9p0_cascadiaair_damage_state_building.description }}</p>
- <blockquote>keywords: {{ site.data.metadata.resources.sim9p0_cascadiaair_damage_state_building.keywords }}</blockquote>
- <button>
-    <a href="{{ site.baseurl }}{{ page.url }}">View Documentation</a>
-</button>
-
- <h4>{{ site.data.metadata.resources.sim9p0_cascadiaair_social_disruption_building.title }}</h4>
- <p>{{ site.data.metadata.resources.sim9p0_cascadiaair_social_disruption_building.description }}</p>
- <blockquote>keywords: {{ site.data.metadata.resources.sim9p0_cascadiaair_social_disruption_building.keywords }}</blockquote>
- <button>
-    <a href="{{ site.baseurl }}{{ page.url }}">View Documentation</a>
-</button>
-
- <h4>{{ site.data.metadata.resources.sim9p0_cascadiaair_recovery_time_building.title }}</h4>
- <p>{{ site.data.metadata.resources.sim9p0_cascadiaair_recovery_time_building.description }}</p>
- <blockquote>keywords: {{ site.data.metadata.resources.sim9p0_cascadiaair_recovery_time_building.keywords }}</blockquote>
- <button>
-    <a href="{{ site.baseurl }}{{ page.url }}">View Documentation</a>
-</button>
-
- <h4>{{ site.data.metadata.resources.sim9p0_cascadiaair_scenario_shakemap_intensity_building.title }}</h4>
- <p>{{ site.data.metadata.resources.sim9p0_cascadiaair_scenario_shakemap_intensity_building.description }}</p>
- <blockquote>keywords: {{ site.data.metadata.resources.sim9p0_cascadiaair_scenario_shakemap_intensity_building.keywords }}</blockquote>
- <button>
-    <a href="{{ site.baseurl }}{{ page.url }}">View Documentation</a>
-</button>
-
- <h4>{{ site.data.metadata.resources.sim9p0_cascadiaair_casualties_building.title }}</h4>
- <p>{{ site.data.metadata.resources.sim9p0_cascadiaair_casualties_building.description }}</p>
- <blockquote>keywords: {{ site.data.metadata.resources.sim9p0_cascadiaair_casualties_building.keywords }}</blockquote>
- <button>
-    <a href="{{ site.baseurl }}{{ page.url }}">View Documentation</a>
-</button>
-
-
- <h4>{{ site.data.metadata.resources.sim9p0_cascadiaair_economic_loss_sauid.title }}</h4>
- <p>{{ site.data.metadata.resources.sim9p0_cascadiaair_economic_loss_sauid.description }}</p>
- <blockquote>keywords: {{ site.data.metadata.resources.sim9p0_cascadiaair_economic_loss_sauid.keywords }}</blockquote>
- <button>
-    <a href="{{ site.baseurl }}{{ page.url }}">View Documentation</a>
-</button>
-
- <h4>{{ site.data.metadata.resources.sim9p0_cascadiaair_damage_state_sauid.title }}</h4>
- <p>{{ site.data.metadata.resources.sim9p0_cascadiaair_damage_state_sauid.description }}</p>
- <blockquote>keywords: {{ site.data.metadata.resources.sim9p0_cascadiaair_damage_state_sauid.keywords }}</blockquote>
- <button>
-    <a href="{{ site.baseurl }}{{ page.url }}">View Documentation</a>
-</button>
-
-
- <h4>{{ site.data.metadata.resources.sim9p0_cascadiaair_social_disruption_sauid.title }}</h4>
- <p>{{ site.data.metadata.resources.sim9p0_cascadiaair_social_disruption_sauid.description }}</p>
- <blockquote>keywords: {{ site.data.metadata.resources.sim9p0_cascadiaair_social_disruption_sauid.keywords }}</blockquote>
- <button>
-    <a href="{{ site.baseurl }}{{ page.url }}">View Documentation</a>
-</button>
-
- <h4>{{ site.data.metadata.resources.sim9p0_cascadiaair_recovery_time_sauid.title }}</h4>
- <p>{{ site.data.metadata.resources.sim9p0_cascadiaair_recovery_time_sauid.description }}</p>
- <blockquote>keywords: {{ site.data.metadata.resources.sim9p0_cascadiaair_recovery_time_sauid.keywords }}</blockquote>
- <button>
-    <a href="{{ site.baseurl }}{{ page.url }}">View Documentation</a>
-</button>
-
- <h4>{{ site.data.metadata.resources.sim9p0_cascadiaair_scenario_shakemap_intensity_sauid.title }}</h4>
- <p>{{ site.data.metadata.resources.sim9p0_cascadiaair_scenario_shakemap_intensity_sauid.description }}</p>
- <blockquote>keywords: {{ site.data.metadata.resources.sim9p0_cascadiaair_scenario_shakemap_intensity_sauid.keywords }}</blockquote>
- <button>
-    <a href="{{ site.baseurl }}{{ page.url }}">View Documentation</a>
-</button>
-
- <h4>{{ site.data.metadata.resources.sim9p0_cascadiaair_casualties_sauid.title }}</h4>
- <p>{{ site.data.metadata.resources.sim9p0_cascadiaair_casualties_sauid.description }}</p>
- <blockquote>keywords: {{ site.data.metadata.resources.sim9p0_cascadiaair_casualties_sauid.keywords }}</blockquote>
- <button>
-    <a href="{{ site.baseurl }}{{ page.url }}">View Documentation</a>
-</button>
+                    <h2>{{ page. contentTitle.en }}</h2>
+                </div>
+                    <h4>{{ page.description.en }}</h4>
+                    <button class="button">
+                        <a href="{{ site.baseurl }}{{ page.url }}">View Documentation</a>
+                    </button>
+                    </div>
+                    {% endif %} {% endfor %}
+            </div>
+            </div>
+        </div>
+    </div>
+</div>

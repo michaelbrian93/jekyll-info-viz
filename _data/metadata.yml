@@ -682,5 +682,9 @@ resources:
               name: Elasticsearch
               data: http://elasticsearch-opendrr:9200/sim9p0_cascadiaair_casualties_sauid
               id_field: Sauid
-
+        regions:
+            - type: layer
+              name: BcKootney
+              layer: https://layer-data-sauid
+              id_field: 
               
