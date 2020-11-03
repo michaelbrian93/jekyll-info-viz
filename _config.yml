@@ -961,6 +961,12 @@ page_gen:
     name: 'name'
     dir: 'docs'
 
+  - data: 'provinces'
+    template: 'provinces'
+    name: 'name'
+    dir: 'provinces'
+
+
 #   - data: 'datasets'
 #     template: 'page'
 #     name: 'documentation_page'

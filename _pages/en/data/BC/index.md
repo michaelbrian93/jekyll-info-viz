@@ -3,12 +3,12 @@ altLangPrefix: index
 authorName: Natural Resources Canada
 authorUrl:
 contentTitle:
-  en: Home
-  fr: Accueil
-dateModified: 2020-11-01
+  en: British Columbia
+  fr: Colombie-Britannique
+dateModified: 2020-10-30
 description:
-  en: Available datasets
-  fr: Ensembles de données disponibles
+  en: Search by Economic Region
+  fr: Effectuer une recherche par région économique
 noContentTitle: true
 pageclass: wb-prettify all-pre
 subject:
@@ -18,11 +18,3 @@ title: OpenDRR
 
 ---
 # {{ page.contentTitle.en }}
-
- {% include data-banner.html %}
-
- {% include documentation-banner.html %}
-
-{% include downloads-banner.html %}
-
-

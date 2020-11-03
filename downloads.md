@@ -14,4 +14,4 @@ permalink: /downloads/
     {% endif %}
   {% endfor %}
 </ul>
-<h1>{{ page.description }}</h1>
+<!-- <h1>{{ page.description }}</h1> -->

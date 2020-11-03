@@ -4,35 +4,36 @@
    title: National Human Settlement Layer (NHSL) - Physical Exposure
    description: Physical characteristics of the built environment
    read: yes
-   keywords:
-      - Settled Area
-      - Building Function
-      - Building Type
-      - People
-      - Assets
+   keywords: |
+       Settled Area 
+       Building Function
+       Building Type
+       People
+       Assets 
   
-#  - name: 2_nhsl_social_fabric
-#     type: collection
-#     title: National Human Settlement Layer (NHSL) - Social Fabric
-#     description: Socioeconomic characteristics of settled areas
-#     read: yes
-#     keywords:
-#       - Housing Conditions
-#       - Family Structure
-#       - Individual Autonomy 
-#       - Financial Agency
+ - name: Social Fabric
+   type: collection
+   title: National Human Settlement Layer (NHSL) - Social Fabric
+   description: Socioeconomic characteristics of settled areas
+   read: yes
+   keywords: | 
+     Housing Conditions
+     Family Structure
+     Individual Autonomy
+     Financial Agency
   
-#  - name: 3_nhsl_hazard_threat
-#       type: collection
-#       title: National Human Settlement Layer (NHSL) - Natural Hazard Threats
-#       description: Exposure of people to natural hazard threats of concern
-#       keywords:
-#         - Earthquake
-#         - Tsunami 
-#         - Flood
-#         - Wildfire
-#         - Landslide
-#         - Cyclone
+ - name: Hazard Threat
+   type: collection
+   title: National Human Settlement Layer (NHSL) - Natural Hazard Threats
+   description: Exposure of people to natural hazard threats of concern
+   read: yes
+   keywords: |
+       Earthquake
+       Tsunami 
+       Flood
+       Wildfire
+       Landslide
+       Cyclone
     
 #   - name: 4_psra_seismic_hazard
 #     type: collection

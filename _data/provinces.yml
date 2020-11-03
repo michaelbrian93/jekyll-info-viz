@@ -1,0 +1,42 @@
+- name: Alberta
+  type: province
+  title: Search Economic Regions of Alberta
+  description: lorem ipsum
+  read: yes
+  keywords:
+    - Settled Area 
+    - Building Function
+    - Building Type
+    - People
+    - Assets
+  regions:
+    - Athabasca Grande Prairie Peace River
+    - Wood Buffalo Cold Lake
+    - Banff Jasper Rocky Mountain House
+    - Edmonton
+    - Red Deer
+    - Camrose Drumheller
+    - Calgary
+    - Lethbridge
+
+
+- name: British Columbia
+  type: province
+  title: Search Economic Regions of British Columbia
+  description: lorem ipsum
+  read: yes
+  keywords:
+    - Settled Area 
+    - Building Function
+    - Building Type
+    - People
+    - Assets
+  regions:
+    - Vancouver Island and Coast
+    - Lower Mainland Southwest
+    - Thompson Okanagan
+    - Kootenay
+    - Cariboo
+    - North Coast
+    - Nechako
+    - Northeast
