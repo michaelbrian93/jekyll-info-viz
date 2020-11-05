@@ -3,33 +3,53 @@ layout: page
 title: Documentation
 ---
 
-
 <div class="container">
-    <div class="data-wrapper col-lg-12">
-        <div class="preview-wrapper">
-                <div class="desc">
-            {% for page in site.pages %} {% if page.path contains 'en/data/documentation-data' %}
-            <div class="wrap">
-                <div class="head-wrap">
+    <a href="http://127.0.0.1:4000/en/index.html">back</a>
+    <!-- <ul>
+        {% for province in site.data.provinces %}
+        <li>
+            <h2>{{ province.name.en }}</h2>
+            <h4>{{ province.description }}</h4>
+            <a href="{{ province.url }}">
+                {{ province.name.en }}
+              </a>
+        </li>
+        <p>{{ province.content | markdownify }}</p>
+        {% endfor %}
+    </ul> -->
+    <h2>Title of Resource</h2>
+    <p>Supporting Text</p>
+    <a href="/doc-page">View</a>
 
-                    <h2>{{ page. contentTitle.en }}</h2>
-                </div>
-                    <h4>{{ page.description.en }}</h4>
-                    <button class="button">
-                        <a href="{{ site.baseurl }}{{ page.url }}">View Documentation</a>
-                    </button>
-                    </div>
-                    {% endif %} {% endfor %}
-            </div>
-            </div>
-        </div>
-    </div>
+    <h2>Title of Resource</h2>
+    <p>Supporting Text</p>
+    <a href="/">View</a>
+
+    <h2>Title of Resource</h2>
+    <p>Supporting Text</p>
+    <a href="/">View</a>
+
+    <h2>Title of Resource</h2>
+    <p>Supporting Text</p>
+    <a href="/">View</a>
+
+    <h2>Title of Resource</h2>
+    <p>Supporting Text</p>
+    <a href="/">View</a>
+
+    <h2>Title of Resource</h2>
+    <p>Supporting Text</p>
+    <a href="/">View</a>
 </div>
 <h1>{{ page.description }}</h1>
 {% include bottom-nav.html %}
 <h4>Contact</h4>
 <p>
-  Do you have questions about the docuementation or need something that isn't here? <br/> Contact us at
-  <a href="https://contact-contactez.nrcan-rncan.gc.ca/index.cfm?st=-1&cat=-1&scat=-1&lang=eng">Natural Resources Canada</a>
+    Do you have questions about the docuementation or need something that isn't
+    here? <br />
+    Contact us at
+    <a
+        href="https://contact-contactez.nrcan-rncan.gc.ca/index.cfm?st=-1&cat=-1&scat=-1&lang=eng"
+        >Natural Resources Canada</a
+    >
 </p>
-

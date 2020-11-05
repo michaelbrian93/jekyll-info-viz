@@ -1,42 +1,635 @@
-- name: Alberta
-  type: province
-  title: Search Economic Regions of Alberta
-  description: lorem ipsum
-  read: yes
+- name: Lethbridge Medicine Hat
+  neighbourhoods: 1
+  type: economic-region
+  buildings: 1
+  people: 1
+  read: true
+  output: true 
+  permalink: lethbridge-medicine-hat
+  assets: 1
+  description: lorem 
   keywords:
-    - Settled Area 
-    - Building Function
-    - Building Type
-    - People
-    - Assets
-  regions:
-    - Athabasca Grande Prairie Peace River
-    - Wood Buffalo Cold Lake
-    - Banff Jasper Rocky Mountain House
-    - Edmonton
-    - Red Deer
-    - Camrose Drumheller
-    - Calgary
-    - Lethbridge
+   - economic region
+  links:
+  - type: text/html
+    rel: canonical
+    title: information
+    href: '/'
+  layer: '/'
+
+- name: Camrose Drumheller
+  neighbourhoods: 1
+  type: economic-region
+  buildings: 1
+  people: 1
+  read: true 
+  assets: 1
+  description: lorem 
+  keywords:
+    - economic region
+  links:
+  - type: text/html
+    rel: canonical
+    title: information
+    href: '/'
+  layer: '/'
+
+- name: Calgary
+  neighbourhoods: 1
+  type: economic-region
+  buildings: 1
+  people: 1
+  read: true 
+  assets: 1
+  description: lorem 
+  keywords:
+    - economic region
+  links:
+    - type: text/html
+      rel: canonical
+      title: information
+      href: '/'
+  layer:  '/'
+      
+- name: Banff Jasper Rocky Mountain Housentain House
+  neighbourhoods: 1
+  type: economic-region
+  buildings: 1
+  people: 1
+  read: true 
+  assets: 1
+  description: lorem
+  keywords:
+    - economic region
+  links:
+    - type: text/html
+      rel: canonical
+      title: information
+      href: '/'
+  layer: '/'
+      
+- name: Red Deer
+  neighbourhoods: 1
+  type: economic-region
+  buildings: 1 
+  people: 1
+  read: true 
+  assets: 1
+  description: lorem
+  keywords:
+    - economic region
+  links:
+    - type: text/html
+      rel: canonical
+      title: information
+      href: '/'
+  layer: '/'
+      
+- name: Edmonton
+  neighbourhoods: 1
+  type: economic-region
+  buildings: 1
+  people: 1
+  read: true
+  assets: 1
+  description: lorem 
+  keywords:
+    - economic region
+  links:
+    - type: text/html
+      rel: canonical
+      title: information
+      href: '/'
+  layer: '/'
+      
+- name: Athabasca Grande Prairie Peace River
+  neighbourhoods: 1
+  type: economic-region
+  buildings: 
+  people:
+  read: true 
+  assets:
+  description: lorem
+  keywords:
+    - economic region
+  links:
+    - type: text/html
+      rel: canonical
+      title: information
+      href: '/'
+  layer: '/'
+      
+- name: Wood Buffalo Cold Lake
+  neighbourhoods: 1
+  type: economic-region
+  buildings: 1
+  people: 1
+  read: true
+  assets: 1
+  description: lorem
+  keywords:
+    - economic region
+  links:
+    - type: text/html
+      rel: canonical
+      title: information
+      href: '/'
+  layer: '/'
+  
+
+  # - name: 
+  #     en: Vancouver Island and Coast
+  #     fr: Île de Vancouver et la côte
+  #   neighbourhoods:
+  #   type: 
+  #     en: economic-region
+  #     fr: région économique
+  #   buildings: 
+  #   people: 
+  #   assets:
+  #   description: lorem 
+  #   keywords:
+  #     - economic region
+  #   links:
+  #   - type: text/html
+  #     rel: canonical
+  #     title: information
+  #     href:
+  #   layer: 
+
+  # - name: 
+  #     en: Lower Mainland--Southwest
+  #     fr: Lower Mainland--Sud-ouest
+  #   neighbourhoods:
+  #   type: 
+  #     en: economic-region
+  #     fr: région économique
+  #   buildings: 
+  #   people: 
+  #   assets:
+  #   description: lorem 
+  #   keywords:
+  #     - economic region
+  #   links:
+  #   - type: text/html
+  #     rel: canonical
+  #     title: information
+  #     href:
+  #     layer: 
+
+  #     name: 
+  #       en: Thompson--Okanagan
+  #       fr: Thompson--Okanagan
+  #     neighbourhoods:
+  #     type: 
+  #       en: economic-region
+  #       fr: région économique
+  #     buildings: 
+  #     people: 
+  #     assets:
+  #     description: lorem 
+  #     keywords:
+  #       - economic region
+  #     links:
+  #       - type: text/html
+  #         rel: canonical
+  #         title: information
+  #         href:
+  #     layer: 
+
+  #     name: 
+  #       en: Kootenay
+  #       fr: Kootenay
+  #     neighbourhoods:
+  #     type: 
+  #       en: economic-region
+  #       fr: région économique
+  #     buildings: 
+  #     people: 
+  #     assets:
+  #     description: lorem 
+  #     keywords:
+  #       - economic region
+  #     links:
+  #       - type: text/html
+  #         rel: canonical
+  #         title: information
+  #         href:
+  #     layer: 
+
+  #     name: 
+  #       en: Cariboo
+  #       fr: Cariboo
+  #     neighbourhoods:
+  #     type: 
+  #       en: economic-region
+  #       fr: région économique
+  #     buildings: 
+  #     people: 
+  #     assets:
+  #     description: lorem 
+  #     keywords:
+  #       - economic region
+  #     links:
+  #       - type: text/html
+  #         rel: canonical
+  #         title: information
+  #         href:
+  #     layer: 
+
+  #     name: 
+  #       en: North Coast
+  #       fr: Côte-nord
+  #     neighbourhoods:
+  #     type: 
+  #       en: economic-region
+  #       fr: région économique
+  #     buildings: 
+  #     people: 
+  #     assets:
+  #     description: lorem 
+  #     keywords:
+  #       - economic region
+  #     links:
+  #       - type: text/html
+  #         rel: canonical
+  #         title: information
+  #         href:
+  #     layer: 
+
+  #     name: 
+  #       en: Nechako
+  #       fr: Nechako
+  #     neighbourhoods:
+  #     type: 
+  #       en: economic-region
+  #       fr: région économique
+  #     buildings: 
+  #     people: 
+  #     assets:
+  #     description: lorem 
+  #     keywords:
+  #       - economic region
+  #     links:
+  #       - type: text/html
+  #         rel: canonical
+  #         title: information
+  #         href:
+  #     layer: 
+
+  #     name: 
+  #       en: Northeast
+  #       fr: Nord-est
+  #     neighbourhoods:
+  #     type: 
+  #       en: economic-region
+  #       fr: région économique
+  #     buildings: 
+  #     people: 
+  #     assets:
+  #     description: lorem 
+  #     keywords:
+  #       - economic region
+  #     links:
+  #       - type: text/html
+  #         rel: canonical
+  #         title: information
+  #         href:
+  #     layer: 
+
+  #     name: 
+  #       en: Southeast
+  #       fr: Sud-est
+  #     neighbourhoods:
+  #     type: 
+  #       en: economic-region
+  #       fr: région économique
+  #     buildings: 
+  #     people: 
+  #     assets:
+  #     description: lorem 
+  #     keywords:
+  #       - economic region
+  #     links:
+  #       - type: text/html
+  #         rel: canonical
+  #         title: information
+  #         href:
+  #     layer: 
+
+  #     name: 
+  #       en: South Central
+  #       fr: Centre sud
+  #     neighbourhoods:
+  #     type: 
+  #       en: economic-region
+  #       fr: région économique
+  #     buildings: 
+  #     people: 
+  #     assets:
+  #     description: lorem 
+  #     keywords:
+  #       - economic region
+  #     links:
+  #       - type: text/html
+  #         rel: canonical
+  #         title: information
+  #         href:
+  #     layer: 
+
+  #     name: 
+  #       en: Southwest
+  #       fr: Sud-ouest
+  #     neighbourhoods:
+  #     type: 
+  #       en: economic-region
+  #       fr: région économique
+  #     buildings: 
+  #     people: 
+  #     assets:
+  #     description: lorem 
+  #     keywords:
+  #       - economic region
+  #     links:
+  #       - type: text/html
+  #         rel: canonical
+  #         title: information
+  #         href:
+  #     layer: 
+
+  #     name: 
+  #       en: North Central 
+  #       fr: Centre nord
+  #     neighbourhoods:
+  #     type: 
+  #       en: economic-region
+  #       fr: région économique
+  #     buildings: 
+  #     people: 
+  #     assets:
+  #     description: lorem
+  #     keywords:
+  #       - economic region
+  #     links:
+  #       - type: text/html
+  #         rel: canonical
+  #         title: information
+  #         href:
+  #     layer: 
 
 
-- name: British Columbia
-  type: province
-  title: Search Economic Regions of British Columbia
-  description: lorem ipsum
-  read: yes
-  keywords:
-    - Settled Area 
-    - Building Function
-    - Building Type
-    - People
-    - Assets
-  regions:
-    - Vancouver Island and Coast
-    - Lower Mainland Southwest
-    - Thompson Okanagan
-    - Kootenay
-    - Cariboo
-    - North Coast
-    - Nechako
-    - Northeast
+
+
+
+
+
+# Alberta:
+#   economic-regions:
+
+
+
+# Lethbridge--Medicine Hat
+# Camrose--Drumheller
+# Calgary
+# Banff--Jasper--Rocky Mountain House
+# Red Deer
+# Edmonton
+# Athabasca--Grande Prairie--Peace River
+# Wood Buffalo--Cold Lake
+# Vancouver Island and Coast / Île de Vancouver et la côte
+# Lower Mainland--Southwest / Lower Mainland--Sud-ouest
+# Thompson--Okanagan
+# Kootenay
+# Cariboo
+# North Coast / Côte-nord
+# Nechako
+# Northeast / Nord-est
+# Southeast / Sud-est
+# South Central / Centre sud
+# Southwest / Sud-ouest
+# North Central / Centre nord
+
+
+# Winnipeg
+# Interlake
+# Parklands
+# North / Nord
+# Campbellton--Miramichi
+# Moncton--Richibucto
+# Saint John--St. Stephen
+# Fredericton--Oromocto
+# Edmundston--Woodstock
+# Avalon Peninsula
+# South Coast--Burin Peninsula / Côte-sud--Burin Peninsula
+# West Coast--Northern Peninsula--Labrador / Côte-ouest--Northern Peninsula--Labrador
+# Notre Dame--Central Bonavista Bay
+# Northwest Territories / Territoires du Nord-Ouest
+# Cape Breton
+# North Shore / Côte-nord
+# Annapolis Valley
+# Southern / Sud
+# Halifax
+# Nunavut
+# Ottawa
+# Kingston--Pembroke
+# Muskoka--Kawarthas
+# Toronto
+# Kitchener--Waterloo--Barrie
+# Hamilton--Niagara Peninsula
+# London
+# Windsor--Sarnia
+# Stratford--Bruce Peninsula
+# Northeast / Nord-est
+# Northwest / Nord-ouest
+# Prince Edward Island / Île-du-Prince-Édouard
+# Gaspésie--Îles-de-la-Madeleine
+# Bas-Saint-Laurent
+# Capitale-Nationale
+# Chaudière-Appalaches
+# Estrie
+# Centre-du-Québec
+# Montérégie
+# Montréal
+# Laval
+# Lanaudière
+# Laurentides
+# Outaouais
+# Abitibi-Témiscamingue
+# Mauricie
+# Saguenay--Lac-Saint-Jean
+# Côte-Nord
+# Nord-du-Québec
+# Regina--Moose Mountain
+# Swift Current--Moose Jaw
+# Saskatoon--Biggar
+# Yorkton--Melville
+# Prince Albert
+# Northern / Nord
+# Yukon
+
+
+
+
+
+
+
+
+
+
+
+# eruid
+# Alberta
+# 4810
+# Alberta
+# 4820
+# Alberta
+# 4830
+# Alberta
+# 4840
+# Alberta
+# 4850
+# Alberta
+# 4860
+# Alberta
+# 4870
+# Alberta
+# 4880
+# British Columbia / Colombie-Britannique
+# 5910
+# British Columbia / Colombie-Britannique
+# 5920
+# British Columbia / Colombie-Britannique
+# 5930
+# British Columbia / Colombie-Britannique
+# 5940
+# British Columbia / Colombie-Britannique
+# 5950
+# British Columbia / Colombie-Britannique
+# 5960
+# British Columbia / Colombie-Britannique
+# 5970
+# British Columbia / Colombie-Britannique
+# 5980
+# Manitoba
+# 4610
+# Manitoba
+# 4620
+# Manitoba
+# 4630
+# Manitoba
+# 4640
+# Manitoba
+# 4650
+# Manitoba
+# 4660
+# Manitoba
+# 4670
+# Manitoba
+# 4680
+# New Brunswick / Nouveau-Brunswick
+# 1310
+# New Brunswick / Nouveau-Brunswick
+# 1320
+# New Brunswick / Nouveau-Brunswick
+# 1330
+# New Brunswick / Nouveau-Brunswick
+# 1340
+# New Brunswick / Nouveau-Brunswick
+# 1350
+# Newfoundland and Labrador / Terre-Neuve-et-Labrador
+# 1010
+# Newfoundland and Labrador / Terre-Neuve-et-Labrador
+# 1020
+# Newfoundland and Labrador / Terre-Neuve-et-Labrador
+# 1030
+# Newfoundland and Labrador / Terre-Neuve-et-Labrador
+# 1040
+# Northwest Territories / Territoires du Nord-Ouest
+# 6110
+# Nova Scotia / Nouvelle-Écosse
+# 1210
+# Nova Scotia / Nouvelle-Écosse
+# 1220
+# Nova Scotia / Nouvelle-Écosse
+# 1230
+# Nova Scotia / Nouvelle-Écosse
+# 1240
+# Nova Scotia / Nouvelle-Écosse
+# 1250
+# Nunavut
+# 6210
+# Ontario
+# 3510
+# Ontario
+# 3515
+# Ontario
+# 3520
+# Ontario
+# 3530
+# prname
+# Ontario
+# 3540
+# Ontario
+# 3550
+# Ontario
+# 3560
+# Ontario
+# 3570
+# Ontario
+# 3580
+# Ontario
+# 3590
+# Ontario
+# 3595
+# Prince Edward Island / Île-du-Prince-Édouard
+# 1110
+# Quebec / Québec
+# 2410
+# Quebec / Québec
+# 2415
+# Quebec / Québec
+# 2420
+# Quebec / Québec
+# 2425
+# Quebec / Québec
+# 2430
+# Quebec / Québec
+# 2433
+# Quebec / Québec
+# 2435
+# Quebec / Québec
+# 2440
+# Quebec / Québec
+# 2445
+# Quebec / Québec
+# 2450
+# Quebec / Québec
+# 455
+# Quebec / Québec
+# 2460
+# Quebec / Québec
+# 2465
+# Quebec / Québec
+# 2470
+# Quebec / Québec
+# 2475
+# Quebec / Québec
+# 2480
+# Quebec / Québec
+# 2490
+# Saskatchewan
+# 4710
+# Saskatchewan
+# 4720
+# Saskatchewan
+# 4730
+# Saskatchewan
+# 4740
+# Saskatchewan
+# 4750
+# Saskatchewan
+# 4760
+# Yukon
+# 6010
+# neighbourhoodsbuildingspeopleassets26,84297,862291,333$76,772M35,83978,383204,178$60,276M64,435409,7441,497,614$324,577M13,15929,20588,710$23,933M21,13567,446209,446$51,011M69,394374,3411,365,478$311,949M44,17596,462267,080$72,287M15,28942,988141,070$31,265M51,295262,018800,225$274,522M122,512562,0952,831,708$784,129M43,330186,339544,783$182,430M17,34963,941151,852$53,219M18,33260,317156,268$61,967M4,99520,03255,174$18,246M6,92515,84538,390$15,893M9,89224,92168,335$26,926M16,86040,403113,949$25,860M8,88820,89363,433$14,149M16,69941,002113,607$31,169M8,70017,43249,927$13,009M24,740195,818709,095$154,149M13,38735,01891,245$20,786M8,79617,93141,920$12,047M7,13823,58989,544$17,812M16,34964,238154,051$32,689M17,13472,915210,161$42,139M16,16458,079167,952$34,688M12,82948,592138,898$26,994M11,05730,90477,732$16,734M15,26092,758269,563$53,995M2,92115,40035,909$6,446M8,98440,729104,612$24,046M9,65144,399108,529$22,831M2,82811,60841,204$14,340M13,14352,707132,046$29,324M20,06861,021151,011$32,783M12,93548,981124,282$24,030M14,93950,361114,099$23,834M19,436111,839403,483$80,653M2,0876,30735,783$7,031M82,223343,7831,308,309$284,400M47,559158,799457,476$116,498M43,985144,423379,563$100,880M200,5121,220,7536,236,613$1,167,427M
+# 81,335385,3191,297,733$297,690M73,169423,1961,411,717$333,518M42,806195,385655,069$148,773M39,095215,215628,808$155,098M41,302112,638304,031$74,817M59,000198,031552,199$151,994M22,61684,258228,129$62,632M16,66951,062139,333$32,141M9,48737,53990,606$19,078M21,34871,215197,857$46,545M38,992186,707731,001$167,258M36,488145,684420,701$88,051M28,17597,823319,697$72,396M21,95981,458241,352$56,329M80,641433,2081,508,316$317,486M74,415251,4181,942,592$478,093M15,28696,658423,155$81,207M27,369159,380494,921$96,856M37,241189,845589,870$124,096M26,115108,135382,367$75,405M16,65149,545145,995$33,630M19,28585,820266,352$64,243M23,45490,485275,781$62,112M7,76132,38192,453$19,717M2,54310,66444,573$6,011M27,924110,188316,737$97,308M17,35743,664101,074$40,352M27,530111,037350,572$102,149M18,44540,56483,688$37,813M36,06581,267207,433$76,578M2,9069,93036,053$8,108M3,91613,05835,924$12,552M

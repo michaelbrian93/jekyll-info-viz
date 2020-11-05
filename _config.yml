@@ -47,6 +47,7 @@ verbose: false
 # 5. Collections
 
 # 6. Jekyll collections settings
+
 collections:
   pages:
     output: true
@@ -57,6 +58,12 @@ collections:
       altLangPrefix: home
       layout: page
       pageclass: home
+  economic-regions:
+    output: true
+    permalink: /economic-regions/:path
+    
+
+
 
 # 7. Site settings
 analytics_adobe: ""
@@ -954,25 +961,10 @@ resources:
               id_field: Sauid
 
 
-page_gen-dirs: true # uncomment, if you prefer to generate named folders
+
+page_gen-dirs: false # uncomment, if you prefer to generate named folders
 page_gen:
-  - data: 'documentation'
-    template: 'doc-test'
-    name: 'name'
-    dir: 'docs'
-
-  - data: 'provinces'
-    template: 'provinces'
-    name: 'name'
-    dir: 'provinces'
-
-
-#   - data: 'datasets'
-#     template: 'page'
-#     name: 'documentation_page'
-#     dir: 'datasets'
-
-#   - data: 'downloads'
-#     template: 'page'
-#     name: 'downloads_page'
-#     dir: 'downloads'
+- data: 'provinces'
+  template: 'economic-region-page'
+  name: 'name'
+  dir: 'provinces'
