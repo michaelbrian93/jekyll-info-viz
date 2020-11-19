@@ -1,6 +1,6 @@
 ---
 layout: datasets
-title: DataSets
-permalink: /datasets/
+title: Explore Data
+permalink: /explore-data/
 ---
 

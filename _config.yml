@@ -58,9 +58,9 @@ collections:
       altLangPrefix: home
       layout: page
       pageclass: home
-  economic-regions:
+  classifications:
     output: true
-    permalink: /economic-regions/:path
+    permalink: /classifications/:path
     
 
 
@@ -486,6 +486,7 @@ resources:
               id_field: AssetID
 
     afm7p2_lrdmf_casualties_building:
+        eruid: 4870
         type: collection
         title: Casualties (Magnitude 7.2)
         description: Casualties aggregated at building level
@@ -962,9 +963,10 @@ resources:
 
 
 
+
 page_gen-dirs: false # uncomment, if you prefer to generate named folders
 page_gen:
-- data: 'provinces'
+- data: 'eruid'
   template: 'economic-region-page'
-  name: 'name'
-  dir: 'provinces'
+  name: 'title'
+  dir: 'economic-regions'

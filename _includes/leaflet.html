@@ -107,6 +107,19 @@ fetch( "{{ site.baseurl }}{{page.layer}}" ).then(( resp ) => {
 });
 {% endif %}
 
+{% if page.layer %}
+var layer_obj;
+fetch( "{{ site.baseurl }}{{page.damageState.layer}}" ).then(( resp ) => {
+    return resp.json();
+}).then(( data ) => {
+    layer_obj = data;
+    _addGeoJSONObjToMap( layer_obj, map );
+}).catch(( err ) => {
+    console.log( err );
+    _addGeoJSONObjToMap( layer_obj, map );
+});
+{% endif %}
+
 function _onEachFeature( feature, layer ) {
     var potentialPopup = ""
     if ( feature.properties && feature.properties.popupContent ) {

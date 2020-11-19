@@ -12,7 +12,7 @@ title: Downloads
 
 <ul>
     {% for page in site.pages %}
-    {% if page.path contains 'en/data/page-data' %}
+    {% if page.path contains site.data.layer %}
       <li>
           <span class="favicon-download-alt">
         <a href="{{site.baseurl}}{{page.layer}}" download="{{page.title}}">{{page.title}}</a>

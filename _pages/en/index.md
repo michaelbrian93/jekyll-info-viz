@@ -20,9 +20,9 @@ title: OpenDRR
 # {{ page.contentTitle.en }}
 
  {% include data-banner.html %}
-
+<!-- 
  {% include documentation-banner.html %}
 
-{% include downloads-banner.html %}
+{% include downloads-banner.html %} -->
 
 

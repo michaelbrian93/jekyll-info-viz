@@ -9,6 +9,7 @@
         display: inline-block;
         margin: 0;
     }
+
     .data-wrapper {
         background-color: inherit;
     }
@@ -19,11 +20,12 @@
         display: inline-block;
         margin-left: 50px;
     }
-    
-	img {
-		display: block;
-		width: 100%;
-	}
+
+    img {
+        display: block;
+        width: 100%;
+    }
+
     .button {
         display: block;
         margin-left: 50px;
@@ -32,62 +34,71 @@
         margin-bottom: 2vh;
 
     }
+
     a,
     a:visited {
         text-decoration: none;
         color: black;
     }
+
     a:hover {
         color: purple;
     }
+
     .wrap {
         border: 2px;
-       width: 700px;
+        width: 700px;
         border-style: solid;
         margin: 10px 10px;
         border-radius: 6px;
         height: auto;
     }
+
     .head-wrap {
         display: inline-block;
     }
 
-    h1, h4 {
+    h1 {
         margin-left: 50px;
     }
+
+    tspan {
+        display: none !important;
+    }
 </style>
+<script src="../assets/js/mapdata.js"></script>
+<script src="../assets/js/canadamap.js"></script>
 
 <div class="container">
     <div class="data-wrapper col-lg-12">
-        <div class="preview-wrapper">
-                <div class="desc">
-            {% for page in site.pages %} {% if page.path contains 'en/data/page-data' %}
-            <div class="wrap">
-                <div class="head-wrap">
-
-                    <div class="thumbnail">
-                        <img src="{{ page.img }}" />
+        <h2>Explore Data by Economic Region</h2>
+        <div id="map"></div>
+        <!-- <div class="preview-wrapper">
+            <div class="desc">
+                {% for page in site.pages %} {% if page.path contains 'en/data/page-data' %}
+                <div class="wrap">
+                    <div class="head-wrap">
+                        <div class="thumbnail">
+                            <img src="{{ page.img }}" />
+                        </div>
+                        <h1>{{ page. contentTitle.en }}</h1>
                     </div>
-                    <h1>{{ page. contentTitle.en }}</h1>
-                </div>
                     <h4>{{ page.description.en }}</h4>
                     <button class="button">
                         <a href="{{ site.baseurl }}{{ page.url }}">View Data</a>
                     </button>
-                    </div>
-                    {% endif %} {% endfor %}
+                </div>
+                {% endif %} {% endfor %}
             </div>
-            </div>
-            <h2>
-                <a href="/economic-regions/">Economic Regions</a>
-            </h2>
-        </div>
+        </div> -->
     </div>
+</div>
 </div>
 <h1>{{ page.description }}</h1>
 {% include bottom-nav.html %}
 <h4>Contact</h4>
 <p>
-  Do you have questions about the data or need data that isn't here? <br/> Contact us at
-  <a href="https://contact-contactez.nrcan-rncan.gc.ca/index.cfm?st=-1&cat=-1&scat=-1&lang=eng">Natural Resources Canada</a>
+    Do you have questions about the data or need data that isn't here? <br /> Contact us at
+    <a href="https://contact-contactez.nrcan-rncan.gc.ca/index.cfm?st=-1&cat=-1&scat=-1&lang=eng">Natural Resources
+        Canada</a>
 </p>
