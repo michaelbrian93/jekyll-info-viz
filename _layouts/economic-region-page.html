@@ -14,7 +14,7 @@ pageclass: wb-prettify all-pre
         margin: 0;
     }
 </style>
-
+<a href="http://127.0.0.1:4000/explore-data/">back</a>
 <h2>{{page.title}} Region</h2>
 <ul>
     <li><b>Neighbourhoods:</b> {{page.aggregateData.neighbourhoods}}</li>
@@ -24,6 +24,8 @@ pageclass: wb-prettify all-pre
 </ul>
 
 {% include leaflet.html %}
+
+
 
 <h1>{{ page.description }}</h1>
 {% include bottom-nav.html %}
