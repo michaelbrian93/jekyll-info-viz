@@ -1,12 +1,3 @@
-
-# PRUID = Provincial Region Unique Identifier
-# ERUID = Economic Region Unique Identifier
-
-# pruid:
-#   48:
-#     - name: Alberta
-#       eruid:
-#         - 4820:
         - title: Camrose Drumheller
           description:
           aggregateData:
@@ -16,8 +7,8 @@
             neighbourhoods: "35,839"
             lastUpdated: 2020-11-05
           keywords:
-            - data
             - economic region
+          scenarioRupture: Scenario Rupture
           terms_of_service: null
           url: https://github.com/OpenDRR
           license:
@@ -28,54 +19,92 @@
           zoom: 10
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
-          theme:
-          - name:
-              en: Scenario Rupture
-              fr: Seismic Risk
-            data: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
-          - name:
-              en: Scenario Hazard
-              fr:
-            data: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
-          - name:
-              en: Scenario Rupture Threat
-              fr:
-            data: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
-          - name:
-              en: Damage State
-              fr:
-            data: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
-          - name:
-              en: Functional State
-              fr:
-            data: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
-          - name:
-              en: Recovery
-              fr:
-            data: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
-          - name:
-              en: Casualties
-              fr:
-            data: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
-          - name:
-              en: Social Disruption
-              fr:
-            data: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
-          - name:
-              en: Economic Loss
-              fr:
-            data: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
-          - name:
-              en: Partial Retrofit
-              fr:
-            data: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
-          - name:
-              en: Full Retrofit
-              fr:
-            data: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          context:
+            focus:
+              scenarioHazard:
+                scenarioRupture:
+                  url:
+                  leaflet: true
+                  latlng: [53.02, -112.82]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                scenarioHazard:
+                  url:
+                  leaflet: true
+                  latlng: [53.02, -112.82]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                scenarioHazardThreat:
+                  leaflet: true
+                  latlng: [53.02, -112.82]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              buildingPerformance:
+                damageState:
+                  leaflet: true
+                  latlng: [53.02, -112.82]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                functionalState:
+                  url:
+                  leaflet: true
+                  latlng: [53.02, -112.82]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                recovery:
+                  url:
+                  leaflet: true
+                  latlng: [53.02, -112.82]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+              affectedPeople:
+                casualties:
+                  leaflet: true
+                  latlng: [53.02, -112.82]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                socialDisruption:
+                  leaflet: true
+                  latlng: [53.02, -112.82]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              economicSecurity:
+                economicLoss:
+                  leaflet: true
+                  latlng: [53.02, -112.82]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              disasterRiskReduction:
+                partialRetrofit:
+                  leaflet: true
+                  latlng: [53.02, -112.82]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                fullRetrofit:
+                  leaflet: true
+                  latlng: [53.02, -112.82]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
 
 
-        # - 4850:
         - title: Red Deer
           description:
           aggregateData:
@@ -97,8 +126,92 @@
           zoom: 10
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
+          context:
+            focus:
+              scenarioHazard:
+                scenarioRupture:
+                  leaflet: true
+                  latlng: [52.26, -113.81]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazard:
+                  leaflet: true
+                  latlng: [52.26, -113.81]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazardThreat:
+                  leaflet: true
+                  latlng: [52.26, -113.81]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              buildingPerformance:
+                damageState:
+                  leaflet: true
+                  latlng: [52.26, -113.81]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                functionalState:
+                  leaflet: true
+                  latlng: [52.26, -113.81]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                recovery:
+                  leaflet: true
+                  latlng: [52.26, -113.81]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              affectedPeople:
+                casualties:
+                  leaflet: true
+                  latlng: [52.26, -113.81]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                socialDisruption:
+                  leaflet: true
+                  latlng: [52.26, -113.81]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              economicSecurity:
+                economicLoss:
+                  leaflet: true
+                  latlng: [52.26, -113.81]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              disasterRiskReduction:
+                partialRetrofit:
+                  leaflet: true
+                  latlng: [52.26, -113.81]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                fullRetrofit:
+                  leaflet: true
+                  latlng: [52.26, -113.81]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
 
-        # - 4830:
+
         - title: Calgary
           description:
           aggregateData:
@@ -120,8 +233,92 @@
           zoom: 10
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
+          context:
+            focus:
+              scenarioHazard:
+                scenarioRupture:
+                  leaflet: true
+                  latlng: [51.04, -114.07]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazard:
+                  leaflet: true
+                  latlng: [51.04, -114.07]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazardThreat:
+                  leaflet: true
+                  latlng: [51.04, -114.07]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              buildingPerformance:
+                damageState:
+                  leaflet: true
+                  latlng: [51.04, -114.07]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                functionalState:
+                  leaflet: true
+                  latlng: [51.04, -114.07]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                recovery:
+                  leaflet: true
+                  latlng: [51.04, -114.07]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              affectedPeople:
+                casualties:
+                  leaflet: true
+                  latlng: [51.04, -114.07]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                socialDisruption:
+                  leaflet: true
+                  latlng: [51.04, -114.07]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              economicSecurity:
+                economicLoss:
+                  leaflet: true
+                  latlng: [51.04, -114.07]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              disasterRiskReduction:
+                partialRetrofit:
+                  leaflet: true
+                  latlng: [51.04, -114.07]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                fullRetrofit:
+                  leaflet: true
+                  latlng: [51.04, -114.07]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
 
-        # - 4840:
+
         - title: Banff Jasper Rocky Mountain House
           description:
           aggregateData:
@@ -143,8 +340,92 @@
           zoom: 10
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
+          context:
+            focus:
+              scenarioHazard:
+                scenarioRupture:
+                  leaflet: true
+                  latlng: [52.88, -118.07]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid    
+                  url:
+                scenarioHazard:
+                  leaflet: true
+                  latlng: [52.88, -118.07]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid 
+                  url:
+                scenarioHazardThreat:
+                  leaflet: true
+                  latlng: [52.88, -118.07]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid 
+                  url:
+              buildingPerformance:
+                damageState:
+                  leaflet: true
+                  latlng: [52.88, -118.07]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid 
+                  url:
+                functionalState:
+                  leaflet: true
+                  latlng: [52.88, -118.07]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid 
+                  url:
+                recovery:
+                  leaflet: true
+                  latlng: [52.88, -118.07]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid 
+                  url:
+              affectedPeople:
+                casualties:
+                  leaflet: true
+                  latlng: [52.88, -118.07]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid 
+                  url:
+                socialDisruption:
+                  leaflet: true
+                  latlng: [52.88, -118.07]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid 
+                  url:
+              economicSecurity:
+                economicLoss:
+                  leaflet: true
+                  latlng: [52.88, -118.07]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid 
+                  url:
+              disasterRiskReduction:
+                partialRetrofit:
+                  leaflet: true
+                  latlng: [52.88, -118.07]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid 
+                  url:
+                fullRetrofit:
+                  leaflet: true
+                  latlng: [52.88, -118.07]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid 
+                  url:
 
-        # - 4810:
+
         - title: Lethbridge Medicine Hat
           description:
           aggregateData:
@@ -166,8 +447,92 @@
           zoom: 10
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
+          context:
+            focus:
+              scenarioHazard:
+                scenarioRupture:
+                  leaflet: true
+                  latlng: [50.00, -112.00]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazard:
+                  leaflet: true
+                  latlng: [50.00, -112.00]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazardThreat:
+                  leaflet: true
+                  latlng: [50.00, -112.00]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              buildingPerformance:
+                damageState:
+                  leaflet: true
+                  latlng: [50.00, -112.00]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                functionalState:
+                  leaflet: true
+                  latlng: [50.00, -112.00]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                recovery:
+                  leaflet: true
+                  latlng: [50.00, -112.00]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              affectedPeople:
+                casualties:
+                  leaflet: true
+                  latlng: [50.00, -112.00]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                socialDisruption:
+                  leaflet: true
+                  latlng: [50.00, -112.00]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              economicSecurity:
+                economicLoss:
+                  leaflet: true
+                  latlng: [50.00, -112.00]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              disasterRiskReduction:
+                partialRetrofit:
+                  leaflet: true
+                  latlng: [50.00, -112.00]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                fullRetrofit:
+                  leaflet: true
+                  latlng: [50.00, -112.00]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
 
-        # - 4880:
+
         - title: Wood Buffalo Cold Lake
           description:
           aggregateData:
@@ -189,8 +554,92 @@
           zoom: 10
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
+          context:
+            focus:
+              scenarioHazard:
+                scenarioRupture:
+                  leaflet: true
+                  latlng: [56.72, -111.38]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazard:
+                  leaflet: true
+                  latlng: [56.72, -111.38]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazardThreat:
+                  leaflet: true
+                  latlng: [56.72, -111.38]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              buildingPerformance:
+                damageState:
+                  leaflet: true
+                  latlng: [56.72, -111.38]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                functionalState:
+                  leaflet: true
+                  latlng: [56.72, -111.38]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                recovery:
+                  leaflet: true
+                  latlng: [56.72, -111.38]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              affectedPeople:
+                casualties:
+                  leaflet: true
+                  latlng: [56.72, -111.38]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                socialDisruption:
+                  leaflet: true
+                  latlng: [56.72, -111.38]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              economicSecurity:
+                economicLoss:
+                  leaflet: true
+                  latlng: [56.72, -111.38]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              disasterRiskReduction:
+                partialRetrofit:
+                  leaflet: true
+                  latlng: [56.72, -111.38]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                fullRetrofit:
+                  leaflet: true
+                  latlng: [56.72, -111.38]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
 
-        # - 4860:
+
         - title: Edmonton
           description:
           aggregateData:
@@ -212,8 +661,92 @@
           zoom: 10
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
+          context:
+            focus:
+              scenarioHazard:
+                scenarioRupture:
+                  leaflet: true
+                  latlng: [53.53, -113.48]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazard:
+                  leaflet: true
+                  latlng: [53.53, -113.48]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazardThreat:
+                  leaflet: true
+                  latlng: [53.53, -113.48]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              buildingPerformance:
+                damageState:
+                  leaflet: true
+                  latlng: [53.53, -113.48]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                functionalState:
+                  leaflet: true
+                  latlng: [53.53, -113.48]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                recovery:
+                  leaflet: true
+                  latlng: [53.53, -113.48]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              affectedPeople:
+                casualties:
+                  leaflet: true
+                  latlng: [53.53, -113.48]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                socialDisruption:
+                  leaflet: true
+                  latlng: [53.53, -113.48]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              economicSecurity:
+                economicLoss:
+                  leaflet: true
+                  latlng: [53.53, -113.48]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              disasterRiskReduction:
+                partialRetrofit:
+                  leaflet: true
+                  latlng: [53.53, -113.48]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                fullRetrofit:
+                  leaflet: true
+                  latlng: [53.53, -113.48]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
 
-        # - 4870:
+
         - title: Athabasca Grande Prairie Peace River
           description:
           aggregateData:
@@ -235,12 +768,92 @@
           zoom: 10
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
+          context:
+            focus:
+              scenarioHazard:
+                scenarioRupture:
+                  leaflet: true
+                  latlng: [54.71, -113.28]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazard:
+                  leaflet: true
+                  latlng: [54.71, -113.28]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazardThreat:
+                  leaflet: true
+                  latlng: [54.71, -113.28]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              buildingPerformance:
+                damageState:
+                  leaflet: true
+                  latlng: [54.71, -113.28]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                functionalState:
+                  leaflet: true
+                  latlng: [54.71, -113.28]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                recovery:
+                  leaflet: true
+                  latlng: [54.71, -113.28]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              affectedPeople:
+                casualties:
+                  leaflet: true
+                  latlng: [54.71, -113.28]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                socialDisruption:
+                  leaflet: true
+                  latlng: [54.71, -113.28]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              economicSecurity:
+                economicLoss:
+                  leaflet: true
+                  latlng: [54.71, -113.28]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              disasterRiskReduction:
+                partialRetrofit:
+                  leaflet: true
+                  latlng: [54.71, -113.28]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                fullRetrofit:
+                  leaflet: true
+                  latlng: [54.71, -113.28]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
 
 
-  # 59:
-  #   - name: British Columbia
-  #     eruid:
-  #       - 5940:
         - title: Kootenay
           description:
           aggregateData:
@@ -260,23 +873,94 @@
           leaflet: true
           latlng: [49.91, -117.49]
           zoom: 10
-          damageState:
-            layer: /assets/data/afm7p2_lrdmf_damage_state_sauid.geojson
-            featureClass: sDtr_None_r2
-          economicLoss:
-            layer: /assets/data/afm7p2_lrdmf_damage_state_sauid.geojson
-            featureClass: sDtr_None_r2
-          recoveryTime:
-            layer:
-            featureClass:
-          earthquakeIntensity:
-            layer:
-            featureClass:
-          socialDisruption:
-            layer:
-            featureClass:
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          context:
+            focus:
+              scenarioHazard:
+                scenarioRupture:
+                  leaflet: true
+                  latlng: [49.91, -117.49]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazard:
+                  leaflet: true
+                  latlng: [49.91, -117.49]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazardThreat:
+                  leaflet: true
+                  latlng: [49.91, -117.49]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              buildingPerformance:
+                damageState:
+                  leaflet: true
+                  latlng: [49.91, -117.49]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                functionalState:
+                  leaflet: true
+                  latlng: [49.91, -117.49]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                recovery:
+                  leaflet: true
+                  latlng: [49.91, -117.49]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              affectedPeople:
+                casualties:
+                  leaflet: true
+                  latlng: [49.91, -117.49]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                socialDisruption:
+                  leaflet: true
+                  latlng: [49.91, -117.49]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              economicSecurity:
+                economicLoss:
+                  leaflet: true
+                  latlng: [49.91, -117.49]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              disasterRiskReduction:
+                partialRetrofit:
+                  leaflet: true
+                  latlng: [49.91, -117.49]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                fullRetrofit:
+                  leaflet: true
+                  latlng: [49.91, -117.49]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
 
-        # - 5970:
+
         - title: Nechako
           description:
           aggregateData:
@@ -296,24 +980,94 @@
           leaflet: true
           latlng: [53.91, -122.71]
           zoom: 10
-          scenario:
-            damageState:
-              layer:
-              featureClass:
-            economicLoss:
-              layer: /assets/data/afm7p2_lrdmf_economic_loss_saiud.geojson
-              featureClass:
-            recoveryTime:
-              layer:
-              featureClass:
-            earthquakeIntensity:
-              layer:
-              featureClass:
-            socialDisruption:
-              layer:
-              featureClass:
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          context:
+            focus:
+              scenarioHazard:
+                scenarioRupture:
+                  leaflet: true
+                  latlng: [53.91, -122.71]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazard:
+                  leaflet: true
+                  latlng: [53.91, -122.71]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazardThreat:
+                  leaflet: true
+                  latlng: [53.91, -122.71]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              buildingPerformance:
+                damageState:
+                  leaflet: true
+                  latlng: [53.91, -122.71]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                functionalState:
+                  leaflet: true
+                  latlng: [53.91, -122.71]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                recovery:
+                  leaflet: true
+                  latlng: [53.91, -122.71]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              affectedPeople:
+                casualties:
+                  leaflet: true
+                  latlng: [53.91, -122.71]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                socialDisruption:
+                  leaflet: true
+                  latlng: [53.91, -122.71]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              economicSecurity:
+                economicLoss:
+                  leaflet: true
+                  latlng: [53.91, -122.71]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              disasterRiskReduction:
+                partialRetrofit:
+                  leaflet: true
+                  latlng: [53.91, -122.71]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                fullRetrofit:
+                  leaflet: true
+                  latlng: [53.91, -122.71]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
 
-        # - 5950:
+
         - title: Cariboo
           description:
           aggregateData:
@@ -335,8 +1089,92 @@
           zoom: 10
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
+          context:
+            focus:
+              scenarioHazard:
+                scenarioRupture:
+                  leaflet: true
+                  latlng: [52.40, -123.45]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazard:
+                  leaflet: true
+                  latlng: [52.40, -123.45]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazardThreat:
+                  leaflet: true
+                  latlng: [52.40, -123.45]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              buildingPerformance:
+                damageState:
+                  leaflet: true
+                  latlng: [52.40, -123.45]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                functionalState:
+                  leaflet: true
+                  latlng: [52.40, -123.45]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                recovery:
+                  leaflet: true
+                  latlng: [52.40, -123.45]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              affectedPeople:
+                casualties:
+                  leaflet: true
+                  latlng: [52.40, -123.45]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                socialDisruption:
+                  leaflet: true
+                  latlng: [52.40, -123.45]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              economicSecurity:
+                economicLoss:
+                  leaflet: true
+                  latlng: [52.40, -123.45]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              disasterRiskReduction:
+                partialRetrofit:
+                  leaflet: true
+                  latlng: [52.40, -123.45]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                fullRetrofit:
+                  leaflet: true
+                  latlng: [52.40, -123.45]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
 
-        # - 5930:
+
         - title: Thompson Okanagan
           description:
           aggregateData:
@@ -358,8 +1196,92 @@
           zoom: 10
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
+          context:
+            focus:
+              scenarioHazard:
+                scenarioRupture:
+                  leaflet: true
+                  latlng: [49.88, -119.43]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazard:
+                  leaflet: true
+                  latlng: [49.88, -119.43]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazardThreat:
+                  leaflet: true
+                  latlng: [49.88, -119.43]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              buildingPerformance:
+                damageState:
+                  leaflet: true
+                  latlng: [49.88, -119.43]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                functionalState:
+                  leaflet: true
+                  latlng: [49.88, -119.43]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                recovery:
+                  leaflet: true
+                  latlng: [49.88, -119.43]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              affectedPeople:
+                casualties:
+                  leaflet: true
+                  latlng: [49.88, -119.43]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                socialDisruption:
+                  leaflet: true
+                  latlng: [49.88, -119.43]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              economicSecurity:
+                economicLoss:
+                  leaflet: true
+                  latlng: [49.88, -119.43]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              disasterRiskReduction:
+                partialRetrofit:
+                  leaflet: true
+                  latlng: [49.88, -119.43]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                fullRetrofit:
+                  leaflet: true
+                  latlng: [49.88, -119.43]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
 
-        # - 5920:
+
         - title: Lower Mainland Southwest
           description:
           aggregateData:
@@ -381,8 +1303,92 @@
           zoom: 10
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
-          
-        # - 5910:
+          context:
+            focus:
+              scenarioHazard:
+                scenarioRupture:
+                  leaflet: true
+                  latlng: [49.05, -122.32]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazard:
+                  leaflet: true
+                  latlng: [49.05, -122.32]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazardThreat:
+                  leaflet: true
+                  latlng: [49.05, -122.32]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              buildingPerformance:
+                damageState:
+                  leaflet: true
+                  latlng: [49.05, -122.32]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                functionalState:
+                  leaflet: true
+                  latlng: [49.05, -122.32]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                recovery:
+                  leaflet: true
+                  latlng: [49.05, -122.32]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              affectedPeople:
+                casualties:
+                  leaflet: true
+                  latlng: [49.05, -122.32]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                socialDisruption:
+                  leaflet: true
+                  latlng: [49.05, -122.32]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              economicSecurity:
+                economicLoss:
+                  leaflet: true
+                  latlng: [49.05, -122.32]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              disasterRiskReduction:
+                partialRetrofit:
+                  leaflet: true
+                  latlng: [49.05, -122.32]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                fullRetrofit:
+                  leaflet: true
+                  latlng: [49.05, -122.32]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+
+
         - title: Vancouver Island and Coast
           description:
           aggregateData:
@@ -404,8 +1410,92 @@
           zoom: 10
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
+          context:
+            focus:
+              scenarioHazard:
+                scenarioRupture:
+                  leaflet: true
+                  latlng: [49.24, -123.11]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazard:
+                  leaflet: true
+                  latlng: [49.24, -123.11]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazardThreat:
+                  leaflet: true
+                  latlng: [49.24, -123.11]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              buildingPerformance:
+                damageState:
+                  leaflet: true
+                  latlng: [49.24, -123.11]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                functionalState:
+                  leaflet: true
+                  latlng: [49.24, -123.11]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                recovery:
+                  leaflet: true
+                  latlng: [49.24, -123.11]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              affectedPeople:
+                casualties:
+                  leaflet: true
+                  latlng: [49.24, -123.11]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                socialDisruption:
+                  leaflet: true
+                  latlng: [49.24, -123.11]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              economicSecurity:
+                economicLoss:
+                  leaflet: true
+                  latlng: [49.24, -123.11]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              disasterRiskReduction:
+                partialRetrofit:
+                  leaflet: true
+                  latlng: [49.24, -123.11]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                fullRetrofit:
+                  leaflet: true
+                  latlng: [49.24, -123.11]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
 
-        # - 5960:
+
         - title: North Coast
           description:
           aggregateData:
@@ -427,8 +1517,92 @@
           zoom: 10
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
+          context:
+            focus:
+              scenarioHazard:
+                scenarioRupture:
+                  leaflet: true
+                  latlng: [50.20, -122.15]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazard:
+                  leaflet: true
+                  latlng: [50.20, -122.15]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazardThreat:
+                  leaflet: true
+                  latlng: [50.20, -122.15]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              buildingPerformance:
+                damageState:
+                  leaflet: true
+                  latlng: [50.20, -122.15]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                functionalState:
+                  leaflet: true
+                  latlng: [50.20, -122.15]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                recovery:
+                  leaflet: true
+                  latlng: [50.20, -122.15]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              affectedPeople:
+                casualties:
+                  leaflet: true
+                  latlng: [50.20, -122.15]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                socialDisruption:
+                  leaflet: true
+                  latlng: [50.20, -122.15]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              economicSecurity:
+                economicLoss:
+                  leaflet: true
+                  latlng: [50.20, -122.15]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              disasterRiskReduction:
+                partialRetrofit:
+                  leaflet: true
+                  latlng: [50.20, -122.15]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                fullRetrofit:
+                  leaflet: true
+                  latlng: [50.20, -122.15]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
 
-        # - 5980:
+
         - title: Northeast
           description:
           aggregateData:
@@ -450,3 +1624,88 @@
           zoom: 10
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
+          context:
+            focus:
+              scenarioHazard:
+                scenarioRupture:
+                  leaflet: true
+                  latlng: [58.80, -122.69]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazard:
+                  leaflet: true
+                  latlng: [58.80, -122.69]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                scenarioHazardThreat:
+                  leaflet: true
+                  latlng: [58.80, -122.69]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              buildingPerformance:
+                damageState:
+                  leaflet: true
+                  latlng: [58.80, -122.69]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                functionalState:
+                  leaflet: true
+                  latlng: [58.80, -122.69]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                recovery:
+                  leaflet: true
+                  latlng: [58.80, -122.69]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              affectedPeople:
+                casualties:
+                  leaflet: true
+                  latlng: [58.80, -122.69]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                socialDisruption:
+                  leaflet: true
+                  latlng: [58.80, -122.69]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              economicSecurity:
+                economicLoss:
+                  leaflet: true
+                  latlng: [58.80, -122.69]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+              disasterRiskReduction:
+                partialRetrofit:
+                  leaflet: true
+                  latlng: [58.80, -122.69]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+                fullRetrofit:
+                  leaflet: true
+                  latlng: [58.80, -122.69]
+                  zoom: 10
+                  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+                  featureClass: Sauid
+                  url:
+
