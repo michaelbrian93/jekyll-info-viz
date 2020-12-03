@@ -13,17 +13,41 @@ pageclass: wb-prettify all-pre
         list-style: none;
         margin: 0;
     }
+    .focus-list {
+        margin: 0;
+
+    }
 </style>
 <a href="http://127.0.0.1:4000/explore-data/">back</a>
 <h2>{{page.title}} Region</h2>
-<ul>
+
+<h3>{{page.theme.name}}</h3>
+<!-- <ul>
     <li><b>Neighbourhoods:</b> {{page.aggregateData.neighbourhoods}}</li>
     <li><b>Buildings:</b> {{page.aggregateData.buildings}}</li>
     <li><b>People:</b> {{page.aggregateData.people}}</li>
     <li><b>Assets:</b> {{page.aggregateData.assets}}</li>
-</ul>
-
+</ul> -->
+Full RetroFit
 {% include leaflet.html %}
+
+<section>
+<ul class="focus-list">
+    <!-- {% for block in site.data.eruid.title %} -->
+    <li><a>Scenario Risk</a></li>
+    <li><a>Scenario Hazard</a></li>
+    <li><a>Scenario Rupture Threat</a></li>
+    <li><a>Damage State</a></li>
+    <li><a>Functional State</a></li>
+    <li><a>Recovery</a></li>
+    <li><a>Casualties</a></li>
+    <li><a>Social Disruption</a></li>
+    <li><a>Partial Retrofit</a></li>
+    <li><a>Full Retrofit</a></li>
+
+    <!-- {% endfor %} -->
+</ul>
+</section>
 
 
 

@@ -5,7 +5,7 @@ permalink: /downloads/
 ---
 
 
-<ul>
+<!-- <ul>
   {% for page in site.pages %}
   {% if page.path contains 'en/data' %}
     <li>
@@ -13,5 +13,5 @@ permalink: /downloads/
     </li>
     {% endif %}
   {% endfor %}
-</ul>
+</ul> -->
 <!-- <h1>{{ page.description }}</h1> -->
