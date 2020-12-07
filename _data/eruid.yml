@@ -20,7 +20,7 @@
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
           context:
-            focus:
+           - focus:
               scenarioHazard:
                 scenarioRupture:
                   url:
@@ -127,7 +127,7 @@
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
           context:
-            focus:
+           - focus:
               scenarioHazard:
                 scenarioRupture:
                   leaflet: true
@@ -234,7 +234,7 @@
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
           context:
-            focus:
+           - focus:
               scenarioHazard:
                 scenarioRupture:
                   leaflet: true
@@ -341,7 +341,7 @@
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
           context:
-            focus:
+           - focus:
               scenarioHazard:
                 scenarioRupture:
                   leaflet: true
@@ -448,7 +448,7 @@
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
           context:
-            focus:
+           - focus:
               scenarioHazard:
                 scenarioRupture:
                   leaflet: true
@@ -555,7 +555,7 @@
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
           context:
-            focus:
+           - focus:
               scenarioHazard:
                 scenarioRupture:
                   leaflet: true
@@ -662,7 +662,7 @@
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
           context:
-            focus:
+           - focus:
               scenarioHazard:
                 scenarioRupture:
                   leaflet: true
@@ -769,7 +769,7 @@
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
           context:
-            focus:
+           - focus:
               scenarioHazard:
                 scenarioRupture:
                   leaflet: true
@@ -876,7 +876,7 @@
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
           context:
-            focus:
+           - focus:
               scenarioHazard:
                 scenarioRupture:
                   leaflet: true
@@ -983,7 +983,7 @@
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
           context:
-            focus:
+           - focus:
               scenarioHazard:
                 scenarioRupture:
                   leaflet: true
@@ -1090,7 +1090,7 @@
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
           context:
-            focus:
+           - focus:
               scenarioHazard:
                 scenarioRupture:
                   leaflet: true
@@ -1197,7 +1197,7 @@
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
           context:
-            focus:
+           - focus:
               scenarioHazard:
                 scenarioRupture:
                   leaflet: true
@@ -1304,7 +1304,7 @@
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
           context:
-            focus:
+           - focus:
               scenarioHazard:
                 scenarioRupture:
                   leaflet: true
@@ -1411,7 +1411,7 @@
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
           context:
-            focus:
+           - focus:
               scenarioHazard:
                 scenarioRupture:
                   leaflet: true
@@ -1518,7 +1518,7 @@
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
           context:
-            focus:
+           - focus:
               scenarioHazard:
                 scenarioRupture:
                   leaflet: true
@@ -1625,7 +1625,7 @@
           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
           featureClass: Sauid
           context:
-            focus:
+           - focus:
               scenarioHazard:
                 scenarioRupture:
                   leaflet: true

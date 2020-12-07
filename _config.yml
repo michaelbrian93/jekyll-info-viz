@@ -970,3 +970,9 @@ page_gen:
   template: 'economic-region-page'
   name: 'title'
   dir: 'economic-regions'
+
+- data: 'eruid'
+  template: 'scenario'
+  name: 'focus'
+  dir: 'scenarios'
+  debug: true
